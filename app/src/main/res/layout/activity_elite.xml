@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EliteActivity"
+    android:background="@drawable/gym">
+
+    <TextView
+        android:id="@+id/elitetxt"
+        android:layout_width="409dp"
+        android:layout_height="430dp"
+        android:background="@color/black"
+        android:text="You are now an Elite trainer the top of the pile.This is the level where progress will be very difficult as you may have almost reached your genetic limits of muscle mass gained.
+The advice here is very similar to the advanced trainers. Train 4/5 times a week with strength and hypertrophy focused workouts to change up the rep ranges and weight to not let your muscles get too used to the training because that's how plateaus occur which stall progress.
+Pay close attention to recovery,nutrition and sleep at this level because without these progressing will be impossile at this level your body needs to recover from the intense workouts of an Elite trainer.
+Focus primarily on the lifts you really want to improve and prioritise them while keeping the less prioritied ones at maintenance. Add extra volume to your target muscle groups in order for muscle and strength growth but not too much extra volume which will cause overtraining and will affect recovery negatively."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_workout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <Button
+        android:id="@+id/view_workout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Current Workout Plan"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/new_session5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/new_session5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#0000FF"
+        android:text="Create New Workout Plan"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/overall5"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Workout Advice for All Levels"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

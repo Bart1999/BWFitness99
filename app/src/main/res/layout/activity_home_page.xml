@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:context=".HomePageActivity"
+    android:background="@drawable/iron"
+    tools:openDrawer="start">
+
+    <ImageView
+        android:id="@+id/searchhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchhome">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layoutgym"
+                android:layout_width="0dp"
+                android:layout_height="251dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/layoutgym2"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="161dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="Booking"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="8dp"
+                    android:src="@drawable/pt" />
+
+                <Button
+                    android:id="@+id/btn_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click For Booking Here"
+                    android:background="@drawable/buttons"
+                    android:textAllCaps="false"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutgym2"
+                android:layout_width="213dp"
+                android:layout_height="251dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/layoutgym"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="161dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="Tracking"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="8dp"
+                    android:src="@drawable/gym_track" />
+
+                <Button
+                    android:id="@+id/btn_track"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click For Tracking Here"
+                    android:background="@drawable/buttons"
+                    android:textAllCaps="false"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutgym3"
+                android:layout_width="0dp"
+                android:layout_height="251dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/layoutgym2"
+                app:layout_constraintTop_toBottomOf="@+id/layoutgym">
+
+                <TextView
+                    android:layout_width="161dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="Progress"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="8dp"
+                    android:src="@drawable/gym_pay" />
+
+                <Button
+                    android:id="@+id/btn_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click For Progress Here"
+                    android:background="@drawable/buttons"
+                    android:textAllCaps="false"/>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutgym4"
+                android:layout_width="213dp"
+                android:layout_height="251dp"
+                android:layout_marginTop="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H,1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/layoutgym"
+                app:layout_constraintTop_toBottomOf="@+id/layoutgym2">
+
+                <TextView
+                    android:layout_width="161dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    android:gravity="center"
+                    android:text="Settings"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="185dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="8dp"
+                    android:src="@drawable/gym_settings" />
+
+                <Button
+                    android:id="@+id/btn_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Click For Settings Here"
+                    android:background="@drawable/buttons"
+                    android:textAllCaps="false"/>
+
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

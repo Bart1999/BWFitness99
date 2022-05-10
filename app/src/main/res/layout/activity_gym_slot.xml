@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rack"
+    tools:context=".GymSlotActivity">
+
+
+
+    <EditText
+        android:id="@+id/which_day"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Which Days Will You Train On?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/start_time"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        android:hint="What Time Will You Start?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_below="@id/which_day" />
+
+    <EditText
+        android:id="@+id/end_time"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/start_time"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="10dp"
+        android:hint="What Time Will You Finish?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/insert_gymslot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/end_time"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0000FF"
+        android:text="Insert Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/update_gymslot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="Update Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/insert_gymslot"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/view_gymslot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_gymslot"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_gymslot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/view_gymslot"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Delete Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

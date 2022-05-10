@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaintainAdviceActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/Maintaina"
+        android:layout_width="326dp"
+        android:layout_height="33dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Calorie Advice per Activity Level"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/Maintain2"
+        android:layout_width="64dp"
+        android:layout_height="231dp"
+        android:layout_marginStart="4dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="40-45   45-50
+   50-55   55-60   60-65   65-70   70-75   75-80   80-85
+   85-90   90-95   95-100"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/Maintain2b"
+        android:layout_width="64dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="50-55   55-60   60-65   65-70   70-75   75-80   80-85
+   85-90   90-95   95-100   100-105   105-110   110-115   115-120"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain3c"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Maintain2"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/Maintain3"
+        android:layout_width="93dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1355-1415 1415-1475 1475-1535 1535-1595 1595-1655  1655-1715 1715-1775
+        1775-1835 1835-1895 1895-1955 1955-2015 2015-2075"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain4"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/Maintain2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/Maintain3b"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1674-1734 1734-1794 1794-1854 1854-1914
+         1914-1974 1974-2034 2034-2094 2094-2154 2154-2214 2214-2274 2274-2334 2334-2394 2394-2454 2454-2514"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain3c"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toEndOf="@+id/Maintain2b"
+        app:layout_constraintTop_toTopOf="@+id/Maintain3"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/Maintain3c"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2162-2240 2240-2317 2317-2395
+         2395-2472 2472-2550 2550-2627 2627-2705 2705-2782 2782-2860 2860-2937 2937-3015 3015-3092 3092-3170 3170-3247"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain3d"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Maintain4"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/Maintain3d"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2651-2746 2746-2841 2841-2936 2936-3031 3031-3126 3126-3221 3221-3316 3316-3411 3411-3506 3506-3601 3601-3696 3696-3791 3791-3886
+        3886-3981"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Maintain5"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/Maintain4"
+        android:layout_width="94dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1740-1827 1827-1905 1905-1982 1982-2060 2060-2137
+        2137-2215 2215-2292 2292-2370 2370-2447 2447-2525 2525-2602 2602-2680"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain5"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toEndOf="@+id/Maintain2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/Maintain5"
+        android:layout_width="90dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2145-2240 2240-2335 2335-2430 2430-2525
+        2525-2620 2620-2715 2715-2810 2810-2905 2905-3000 3000-3095 3095-3190 3190-3285"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toEndOf="@+id/Maintain2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/Maintain6"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Weight(kg)"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain2"
+        app:layout_constraintEnd_toStartOf="@+id/Maintaina"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+    <TextView
+        android:id="@+id/Maintain7"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Not Active"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain3"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain8"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <TextView
+        android:id="@+id/Maintain7f"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Female"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain3"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <TextView
+        android:id="@+id/Maintain7b"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Male"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain2b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Maintain2"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/Maintain8"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Active"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain4"
+        app:layout_constraintEnd_toStartOf="@+id/Maintain9"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toEndOf="@+id/Maintain6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <TextView
+        android:id="@+id/Maintain9"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Athlete"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Maintain5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Maintain6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/view_calorie"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Current Nutrition Plan"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/new_maintain"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/new_maintain"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="Create New Nutrition Plan"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>

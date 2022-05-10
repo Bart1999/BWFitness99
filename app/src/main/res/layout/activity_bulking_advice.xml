@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BulkingAdviceActivity"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/Bulka"
+        android:layout_width="326dp"
+        android:layout_height="33dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Calorie Advice per Activity Level"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/Bulk2"
+        android:layout_width="64dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="40-45   45-50
+   50-55   55-60   60-65   65-70   70-75   75-80   80-85
+   85-90   90-95   95-100"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/Bulk2b"
+        android:layout_width="64dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="50-55   55-60   60-65   65-70   70-75   75-80   80-85
+   85-90   90-95   95-100   100-105   105-110   110-115   115-120"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk3c"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Bulk2"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/Bulk3"
+        android:layout_width="93dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1555-1615 1615-1675 1675-1735 1735-1795 1795-1855  1855-1915 1915-1975
+        1975-2035 2035-2095 2095-2155 2155-2215 2215-2275"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk4"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/Bulk2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/Bulk3b"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1874-1934 1934-1994 1994-2054 2054-2114
+         2114-2174 2174-2234 2234-2294 2294-2354 2354-2414 2414-2474 2474-2534 2534-2594 2594-2654 2654-2714"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk3c"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toEndOf="@+id/Bulk2b"
+        app:layout_constraintTop_toTopOf="@+id/Bulk3"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/Bulk3c"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2362-2440 2440-2517 2517-2595
+         2595-2672 2672-2750 2750-2827 2827-2905 2905-2982 2982-3060 3060-3137 3137-3215 3215-3292 3292-3370 3370-3447"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk3d"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Bulk4"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/Bulk3d"
+        android:layout_width="93dp"
+        android:layout_height="270dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2851-2946 2946-3041 3041-3136 3136-3231 3231-3326 3326-3421 3421-3516 3516-3611 3611-3706 3706-3801 3801-3896 3896-3991 3991-4086
+        3886-3981"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Bulk5"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/Bulk4"
+        android:layout_width="94dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="1940-2027 2027-2105 2105-2182 2182-2260 2260-2337
+        2337-2415 2415-2492 2492-2570 2570-2647 2647-2725 2725-2802 2802-2880"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk5"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toEndOf="@+id/Bulk2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/Bulk5"
+        android:layout_width="90dp"
+        android:layout_height="231dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:text="2345-2440 2440-2535 2535-2630 2630-2725
+        2725-2820 2820-2915 2915-3010 3010-3105 3105-3200 3200-3295 3295-3390 3390-3485"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Bulk2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/Bulk6"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Weight(kg)"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk2"
+        app:layout_constraintEnd_toStartOf="@+id/Bulka"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Bulk7"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Not Active"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk3"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk8"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/Bulk7f"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Female"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk3"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk8"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <TextView
+        android:id="@+id/Bulk7b"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Male"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk2b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Bulk2"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <TextView
+        android:id="@+id/Bulk8"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Active"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk4"
+        app:layout_constraintEnd_toStartOf="@+id/Bulk9"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toEndOf="@+id/Bulk6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818" />
+
+    <TextView
+        android:id="@+id/Bulk9"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Athlete"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Bulk5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.988"
+        app:layout_constraintStart_toEndOf="@+id/Bulk6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814" />
+
+    <Button
+        android:id="@+id/view_calorie"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Current Nutrition Plan"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/new_bulk"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/new_bulk"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="Create New Nutrition Plan"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

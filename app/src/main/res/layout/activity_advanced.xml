@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedActivity"
+    android:background="@drawable/gym">
+
+    <TextView
+        android:id="@+id/advancedtxt"
+        android:layout_width="409dp"
+        android:layout_height="400dp"
+        android:background="@color/black"
+        android:text="You are now at an Advanced training level progressing is now becoming even more difficult as you will have to focus on the smallest details to make the difference.
+In order to now make progression easier you will now have to focus on one major lift in particular while maintaining the other ones. For compound lifts prgression may stall too and now focusing on accessory exercises which mean exercising the muscles used in the compound lift with isolation movements on top of the actual compound work.
+4/5 day training split is still recommended at this level. Resting properly eating right and limiting alcohol and drug intake will help you progress but if you ignore these points it will be almost impossible to progress onto the Elite Level. Deload Weeks, Strength and hypertrophy focused sessions are also recommended to always change up your training and not cause plateaus.
+"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_workout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/view_workout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Current Workout Plan"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/new_session4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/new_session4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#0000FF"
+        android:text="Create New Workout Plan"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/overall4"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Workout Advice for All Levels"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

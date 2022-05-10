@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rack"
+    tools:context=".MembershipActivity">
+
+
+    <EditText
+        android:id="@+id/membership_length"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="How Long Would You Like Your Membership?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/payment_method"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/membership_length"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Which Method of Payment?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/insert_membership"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/payment_method"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="Insert Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/update_membership"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/insert_membership"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Update Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view_membership"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_membership"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_membership"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/view_membership"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Delete Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pay_membership"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/delete_membership"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Click For Payment Here"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

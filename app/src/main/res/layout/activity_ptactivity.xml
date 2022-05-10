@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rack"
+    tools:context=".PTActivity">
+
+    <EditText
+        android:id="@+id/target_performance"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Is Your Goal Fat Loss Or Muscle Gain?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/insert_workout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/insert_workout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029" />
+
+    <EditText
+        android:id="@+id/pt_length"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="For How Long Do You Want To Be Trained?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pt_payment"
+        app:layout_constraintEnd_toEndOf="@+id/pt_payment"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pt_payment"
+        app:layout_constraintTop_toTopOf="@+id/target_performance"
+        app:layout_constraintVertical_bias="0.848" />
+
+    <EditText
+        android:id="@+id/pt_payment"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Which PT did you choose?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/insert_pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="@+id/insert_pt"
+        app:layout_constraintTop_toTopOf="@+id/target_performance"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/insert_pt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="Insert Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/update_pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/update_pt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/update_pt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="Update Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_pt"
+        app:layout_constraintEnd_toEndOf="@+id/view_pt"
+        app:layout_constraintStart_toStartOf="@+id/view_pt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+
+    <Button
+        android:id="@+id/view_pt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/delete_pt"
+        app:layout_constraintEnd_toEndOf="@+id/delete_pt"
+        app:layout_constraintStart_toStartOf="@+id/delete_pt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <Button
+        android:id="@+id/delete_pt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#0000FF"
+        android:text="Delete Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trainer_recycler"
+        android:layout_width="396dp"
+        android:layout_height="308dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/insert_workout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pt_payment" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

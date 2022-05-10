@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plates"
+    tools:context=".WorkoutActivity">
+
+
+    <EditText
+        android:id="@+id/which_exercise"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Which Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/target_weight"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/which_exercise"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Target Weight For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/current_weight"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/target_weight"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Current Weight For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/target_sets"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/current_weight"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Target Sets For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/current_sets"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/target_sets"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Current Sets For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/target_reps"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/current_sets"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Target Reps For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/current_reps"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/target_reps"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/outline"
+        android:backgroundTint="@color/black"
+        android:hint="Current Reps For This Exercise?"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/insert_workout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/current_reps"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#0000FF"
+        android:text="Insert Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/update_workout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/insert_workout"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Update Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/view_workout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/update_workout"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="View Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete_workout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/view_workout"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0000FF"
+        android:text="Delete Information"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

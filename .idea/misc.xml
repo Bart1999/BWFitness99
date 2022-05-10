@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/drawable/buttons.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/drawable/outline.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_advanced.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_beginner.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_bench_progress.xml" value="0.10743243243243243" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_booking.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_bulking_advice.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_calorie.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_chloe_nolan.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_content_layout.xml" value="0.10641891891891891" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_cutting_advice.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_deadlift_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_elite.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_female_bench_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_female_deadlift_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_female_squat_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_female_workout_advice.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_gender_bench.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_gender_deadlift.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_gender_squat.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_gym_progress.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_gym_slot.xml" value="0.10641891891891891" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_home_page.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_intermediate.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_james_reid.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_jessica_ryan.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_kyle_vance.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_kylie_wall.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_lifting_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_maintain_advice.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_male_workout_advice.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_membership.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_mike_callis.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_nav_drawer_base.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_novice.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_overall.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_overall_nutrition.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_pay_pal.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_payment.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_payment2.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_payment_details.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_peter_donnington.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_progress.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_ptactivity.xml" value="0.10067567567567567" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_ptbooking.xml" value="0.10641891891891891" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_sarah_ream.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_search.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_settings.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_sign_up.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_squat_progress.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_tracking.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/activity_workout.xml" value="0.12" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/content_payment_details.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/custom_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/custom_dialog1.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/custom_dialog2.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/custom_dialog3.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_booking.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_payment.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_second.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/fragment_tracking.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/header_nav.xml" value="0.6678571428571428" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/nav_header.xml" value="0.22" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/personal_trainer_items.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/layout/row.xml" value="0.11655405405405406" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+        <entry key="..\:/Users/barte/AndroidStudioProjects/BWFitness/app/src/main/res/menu/drawer_menu.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
