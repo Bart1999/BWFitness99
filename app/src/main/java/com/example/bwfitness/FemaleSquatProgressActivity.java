@@ -80,7 +80,6 @@ public class FemaleSquatProgressActivity extends NavDrawerBaseActivity {
         }
     }
 
-
     public void decreaseWeight3f(View view) {
         if (Integer.parseInt(weight3f.getText().toString()) > 1) {
             int weight_value3f = Integer.parseInt(weight3f.getText().toString()) - 1;
