@@ -37,29 +37,29 @@ public class ListViewAdapter extends BaseAdapter {
 
     Context mContext;
     LayoutInflater inflater;
-    List<Model> modellist;
-    ArrayList<Model> arrayList;
+    List<Model> models_list;
+    ArrayList<Model> featuresList;
 
-    public ListViewAdapter(Context context, List<Model> modellist){
+    public ListViewAdapter(Context context, List<Model> models_list){
         this.mContext = context;
-        this.modellist = modellist;
+        this.models_list = models_list;
         inflater = LayoutInflater.from(mContext);
-        this.arrayList = new ArrayList<Model>();
-        this.arrayList.addAll(modellist);
+        this.featuresList = new ArrayList<Model>();
+        this.featuresList.addAll(models_list);
     }
 
     public class ViewHolder{
-        TextView mTitleTv, mDescTv;
-        ImageView mIconIv;
+        TextView TitleText, DescText;
+        ImageView ImageText;
     }
     @Override
     public int getCount() {
-        return modellist.size();
+        return models_list.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return modellist.get(i);
+        return models_list.get(i);
     }
 
     @Override
@@ -74,89 +74,89 @@ public class ListViewAdapter extends BaseAdapter {
             holder = new ViewHolder();
             view = inflater.inflate(R.layout.row,null);
 
-            holder.mTitleTv = view.findViewById(R.id.mainTitle);
-            holder.mDescTv = view.findViewById(R.id.mainDesc);
-            holder.mIconIv = view.findViewById(R.id.mainIcon);
+            holder.TitleText = view.findViewById(R.id.mainTitle);
+            holder.DescText = view.findViewById(R.id.mainDesc);
+            holder.ImageText = view.findViewById(R.id.mainIcon);
 
             view.setTag(holder);
         }
         else{
             holder = (ViewHolder) view.getTag();
         }
-        holder.mTitleTv.setText(modellist.get(position).getTitle());
-        holder.mDescTv.setText(modellist.get(position).getDesc());
-        holder.mIconIv.setImageResource(modellist.get(position).getIcon());
+        holder.TitleText.setText(models_list.get(position).getTitle());
+        holder.DescText.setText(models_list.get(position).getDesc());
+        holder.ImageText.setImageResource(models_list.get(position).getImage());
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                if(modellist.get(position).getTitle().equals("Overall Booking")){
+                if(models_list.get(position).getTitle().equals("Overall Booking")){
                     Intent intent = new Intent(mContext, BookingActivity.class);
                     mContext.startActivity(intent);
                 } else if
-                (modellist.get(position).getTitle().equals("PT Booking")) {
+                (models_list.get(position).getTitle().equals("PT Booking")) {
                     Intent intent = new Intent(mContext, PTActivity.class);
                     mContext.startActivity(intent);
                 } else if
-                    (modellist.get(position).getTitle().equals("Home Page")){
+                    (models_list.get(position).getTitle().equals("Home Page")){
                         Intent intent = new Intent(mContext, HomePageActivity.class);
                         mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Gym Membership Booking")){
+                (models_list.get(position).getTitle().equals("Gym Membership Booking")){
                     Intent intent = new Intent(mContext, MembershipActivity.class);
                     mContext.startActivity(intent);
                 }
                 else if
-                (modellist.get(position).getTitle().equals("Gym Slot Booking")){
+                (models_list.get(position).getTitle().equals("Gym Slot Booking")){
                     Intent intent = new Intent(mContext, GymSlotActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Overall Tracking")){
+                (models_list.get(position).getTitle().equals("Overall Tracking")){
                     Intent intent = new Intent(mContext, TrackingActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Calorie Tracking")){
+                (models_list.get(position).getTitle().equals("Calorie Tracking")){
                     Intent intent = new Intent(mContext, CalorieActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Workout Tracking")){
+                (models_list.get(position).getTitle().equals("Workout Tracking")){
                     Intent intent = new Intent(mContext, WorkoutActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Payment")){
+                (models_list.get(position).getTitle().equals("Payment")){
                     Intent intent = new Intent(mContext, Payment_Activity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Settings")){
+                (models_list.get(position).getTitle().equals("Settings")){
                     Intent intent = new Intent(mContext, SettingsActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Progress")){
+                (models_list.get(position).getTitle().equals("Progress")){
                     Intent intent = new Intent(mContext, GymProgressActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Workout Advice")){
+                (models_list.get(position).getTitle().equals("Workout Advice")){
                     Intent intent = new Intent(mContext, OverallActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Nutrition Advice")){
+                (models_list.get(position).getTitle().equals("Nutrition Advice")){
                     Intent intent = new Intent(mContext, OverallNutritionActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Bench Press Progress")){
+                (models_list.get(position).getTitle().equals("Bench Press Progress")){
                     Intent intent = new Intent(mContext, BenchProgressActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Deadlift Progress")){
+                (models_list.get(position).getTitle().equals("Deadlift Progress")){
                     Intent intent = new Intent(mContext, DeadliftProgressActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Squat Progress")){
+                (models_list.get(position).getTitle().equals("Squat Progress")){
                     Intent intent = new Intent(mContext, SquatProgressActivity.class);
                     mContext.startActivity(intent);
                 }else if
-                (modellist.get(position).getTitle().equals("Body Weight Progress")) {
+                (models_list.get(position).getTitle().equals("Body Weight Progress")) {
                     Intent intent = new Intent(mContext, WeightProgressActivity.class);
                     mContext.startActivity(intent);
                 }
@@ -168,15 +168,15 @@ public class ListViewAdapter extends BaseAdapter {
 
     public void filter(String charText){
         charText = charText.toLowerCase(Locale.getDefault());
-        modellist.clear();
+        models_list.clear();
         if (charText.length()==0){
-            modellist.addAll(arrayList);
+            models_list.addAll(featuresList);
         }
         else{
-            for(Model model : arrayList){
+            for(Model model : featuresList){
                 if (model.getTitle().toLowerCase(Locale.getDefault())
                     .contains(charText)){
-                    modellist.add(model);
+                    models_list.add(model);
                 }
             }
         }

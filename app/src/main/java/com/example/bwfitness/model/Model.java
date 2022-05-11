@@ -3,12 +3,12 @@ package com.example.bwfitness.model;
 public class Model {
     String title;
     String desc;
-    int icon;
+    int image;
 
-    public Model(String title, String desc, int icon) {
+    public Model(String title, String desc, int image) {
         this.title=title;
         this.desc=desc;
-        this.icon=icon;
+        this.image = image;
     }
 
     public String getTitle() {
@@ -19,8 +19,8 @@ public class Model {
         return desc;
     }
 
-    public int getIcon() {
-        return icon;
+    public int getImage() {
+        return image;
     }
 
     public void setTitle(String title) {
@@ -31,7 +31,7 @@ public class Model {
         this.desc = desc;
     }
 
-    public void setIcon(int icon) {
-        this.icon = icon;
+    public void setImage(int image) {
+        this.image = image;
     }
 }
