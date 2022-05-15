@@ -24,6 +24,7 @@ public class PersonalTrainerAdapter extends RecyclerView.Adapter<PersonalTrainer
     Context context;
     List<PersonalTrainer> personalTrainerList;
 
+
     public PersonalTrainerAdapter(Context context,List<PersonalTrainer> personalTrainerList,
                                   RecyclerViewInterface recyclerViewInterface) {
         this.context = context;

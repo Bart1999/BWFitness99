@@ -29,6 +29,7 @@ public class SearchActivity extends NavDrawerBaseActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         activitySearchBinding = ActivitySearchBinding.inflate(getLayoutInflater());
         setContentView(activitySearchBinding.getRoot());
         allocateActivityTitle("Search");
@@ -41,10 +42,12 @@ public class SearchActivity extends NavDrawerBaseActivity{
                 "Overall Tracking", "Calorie Tracking", "Workout Tracking", "Progress",
                 "Settings", "Payment", "Workout Advice", "Nutrition Advice",
                 "Bench Press Progress","Deadlift Progress","Squat Progress","Body Weight Progress"};
+
         desc = new String[]{"General Booking Page","Access the home page here", "Book your PT here", "Book your Gym Slot here", "Book your Gym Membership here"
                 , "General Tracking Page", "Track your Calories here", "Track your Workouts here", "Track your Body Weight and Lifting Progress here"
                 , "Settings page", "Payment page", "Check out Workout Advice for all experience levels", "Check out nutrition advice for all weight levels",
         "Check your Bench Press Progress","Check your Deadlift Progress","Check your Squat Progress","Check your Body Weight Progress"};
+
         image = new int[]{R.drawable.gym_pay,R.drawable.hhhh, R.drawable.gym_pay, R.drawable.gym_pay, R.drawable.gym_pay, R.drawable.gym_track,
                 R.drawable.gym_track, R.drawable.gym_track, R.drawable.pt,
                 R.drawable.gym_settings, R.drawable.gym_pay, R.drawable.pt, R.drawable.pt,

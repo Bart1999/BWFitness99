@@ -31,6 +31,7 @@ public class BenchProgressActivity extends NavDrawerBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         activityBenchProgressBinding = ActivityBenchProgressBinding.inflate(getLayoutInflater());
         setContentView(activityBenchProgressBinding.getRoot());
         allocateActivityTitle("Mens Bench Press Progress");

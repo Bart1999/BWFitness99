@@ -40,6 +40,7 @@ public class ListViewAdapter extends BaseAdapter {
     List<Model> models_list;
     ArrayList<Model> featuresList;
 
+
     public ListViewAdapter(Context context, List<Model> models_list){
         this.mContext = context;
         this.models_list = models_list;
